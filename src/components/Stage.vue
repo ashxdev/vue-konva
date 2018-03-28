@@ -57,6 +57,9 @@ export default {
       applyNodeProps(this, props, cacheConfig);
       cacheConfig = props;
     }
+  },
+  render (h) {
+    return h('div', this.config, [this.$slots.default])
   }
 };
 </script>
