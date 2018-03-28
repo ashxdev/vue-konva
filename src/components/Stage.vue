@@ -1,7 +1,3 @@
-<template>
- <div>{{this.config}}<slot></slot></div>
-</template>
-
 <script>
 import { applyNodeProps, createListener } from '../utils';
 const EventEmitter = require("events");
